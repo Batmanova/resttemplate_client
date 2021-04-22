@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f9b0b6b60ad, pid=23652, tid=23665
+#
+# JRE version: OpenJDK Runtime Environment (11.0.10+9) (build 11.0.10+9-Ubuntu-0ubuntu1.20.04)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.10+9-Ubuntu-0ubuntu1.20.04, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x30ad]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P %E" (or dumping to /home/alisa/IdeaProjects/client1/core.23652)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugs.launchpad.net/ubuntu/+source/openjdk-lts
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: --add-modules=javafx.controls,javafx.fxml,javafx.graphics --module-path=/home/alisa/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/11.0.1/616cebdad44013674175c710427d0ef94b96bffd/javafx-fxml-11.0.1-linux.jar:/home/alisa/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/11.0.1/e26db61c03faefb09030a5b7b03fa8ce55bb3d04/javafx-controls-11.0.1-linux.jar:/home/alisa/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.1/bcd06886f9fe50da362537eb0e779354e5c38181/javafx-graphics-11.0.1-linux.jar:/home/alisa/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/11.0.1/4cb7db1adb33b2c0edc458917158664f0107365c/javafx-base-11.0.1-linux.jar -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:43675 -Dfile.encoding=UTF-8 -Duser.country=RU -Duser.language=ru -Duser.variant sample.Main
+
+Host: 
